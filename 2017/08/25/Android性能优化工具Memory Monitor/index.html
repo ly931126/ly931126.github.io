@@ -15,16 +15,28 @@
   
   <title>liye</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="你好">
-<meta property="og:type" content="website">
+  <meta name="description" content="Memory MonitorMemory Monitor是AS自带的内存监视工具，可以实时显示程序内存消耗情况，并且提供了内存分析工具，帮助开发者程序中内存泄漏问题。如下图，蓝色代表分配的内存，灰色代表可以分配的。   A：initiate GC 手动触发GC操作； B：Dump Java Heap 获取当前的堆栈信息，生成一个.hprof文件，AndroidStudip会自动使用HeapView">
+<meta property="og:type" content="article">
 <meta property="og:title" content="liye">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2017/08/25/Android性能优化工具Memory Monitor/index.html">
 <meta property="og:site_name" content="liye">
-<meta property="og:description" content="你好">
+<meta property="og:description" content="Memory MonitorMemory Monitor是AS自带的内存监视工具，可以实时显示程序内存消耗情况，并且提供了内存分析工具，帮助开发者程序中内存泄漏问题。如下图，蓝色代表分配的内存，灰色代表可以分配的。   A：initiate GC 手动触发GC操作； B：Dump Java Heap 获取当前的堆栈信息，生成一个.hprof文件，AndroidStudip会自动使用HeapView">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2848866-234f406d68d7fb55.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://dn-mhke0kuv.qbox.me/8e7ed3293be4da1a848f.jpg">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2848866-f992a2d603be2f55.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2848866-f58efb1b2c225c11.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2848866-ca390d50f524caf2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2848866-6d6e448650736575.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2848866-7ad4c9e4dd96d985.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2848866-a893765b9693279a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2848866-aba6c2bd0d491190.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2848866-e0766adf8200bedf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2017-04-19T12:12:09.678Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="liye">
-<meta name="twitter:description" content="你好">
+<meta name="twitter:description" content="Memory MonitorMemory Monitor是AS自带的内存监视工具，可以实时显示程序内存消耗情况，并且提供了内存分析工具，帮助开发者程序中内存泄漏问题。如下图，蓝色代表分配的内存，灰色代表可以分配的。   A：initiate GC 手动触发GC操作； B：Dump Java Heap 获取当前的堆栈信息，生成一个.hprof文件，AndroidStudip会自动使用HeapView">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/2848866-234f406d68d7fb55.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
   
   
     <link rel="icon" href="/css/images/favicon.ico">
@@ -65,9 +77,7 @@
     </nav>
 </header>
       <div id="main" class="wrapper">
-        <div id="primary" class="site-content"><div id="content" role="main">
-  
-    <article id="post-Android性能优化工具Memory Monitor" class="post-Android性能优化工具Memory Monitor post type-post status-publish format-standard hentry">
+        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-Android性能优化工具Memory Monitor" class="post-Android性能优化工具Memory Monitor post type-post status-publish format-standard hentry">
     <!---->
 
       <header class="entry-header">
@@ -141,54 +151,20 @@
 </article>
 
 
-
-
-
-
-  
-    <article id="post-HelloWorld" class="post-HelloWorld post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/2017/08/25/HelloWorld/">HelloWorld</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2017/08/25/HelloWorld/" data-id="cj6ri17iy0002esimlvh78ryc" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/2017/08/25/HelloWorld/">
-    <time datetime="2017-08-25T05:59:03.000Z" class="entry-date">
-        2017-08-25
-    </time>
-</a>
+    
+<nav class="nav-single">
+    <h3 class="assistive-text">文章导航</h3>
     
     
-    </footer>
-</article>
+        <span class="nav-next"><a href="/2017/08/25/HelloWorld/" rel="next">HelloWorld <span class="meta-nav">→</span></a></span>
+    
+</nav><!-- .nav-single -->
 
 
 
 
 
 
-  
-  
 
 </div></div>
         <div id="secondary" class="widget-area" role="complementary">
